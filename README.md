@@ -16,7 +16,9 @@ This is solveable the way that it is, but it is much simpler to find a solution 
 matrix is one way to do this, and this is what it would look like for this set:
 
 1 2 3 | 0
+
 3 6 4 | 3
+
 5 7 8 | 12
 
 the 3 columns on the left represent the coefficient matrix, and the column to the right of the bar is the resulting vector.
@@ -28,20 +30,26 @@ two out of the three variables (equate two variables to zero, if possible) in ea
 form matrix will ideally look like the following:
 
 1 0 0 | ?
+
 0 1 0 | ?
+
 0 0 1 | ?
 
 where the ? marks represent some number. For the sake of explaination, lets give the ? marks some values so that we can see how a RREF matrix can help us:
 
 1 0 0 | 7
+
 0 1 0 | 3
+
 0 0 1 | 2
 
 
 the solution set of this example matrix would be:
 
 |x|       |7|
-|y|   =   |3|  
+
+|y|   =   |3| 
+
 |z|       |2|
 
 or, x = 7, y = 3, z = 2
@@ -55,7 +63,9 @@ Allowed Operations:
 The only allowed operations to convert a matrix into reduced row echelon form are:
 
 1. Multiplying a row by a constant
+
 2. adding an entire row to another row
-3. exchanging rows position in the matrix
+
+3. exchanging row positions in the matrix
 
 No other operations are allowed.

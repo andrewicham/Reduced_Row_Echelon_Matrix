@@ -3,7 +3,7 @@ A web program, using mostly vanilla javascript, to convert a 3x3 matrix into red
 
 Matrix Description:
 -------------------
-For those who haven't taken a linear algebra course, or who would\n like a refresher, a matrix is a simplified way to represent 
+For those who haven't taken a linear algebra course, or who would like a refresher, a matrix is a simplified way to represent 
 a system of linear equations. For example, lets say that we have three equations for a plane:
 
 1x + 2y + 3z = 0
@@ -16,9 +16,7 @@ This is solveable the way that it is, but it is much simpler to find a solution 
 matrix is one way to do this, and this is what it would look like for this set:
 
 1 2 3 | 0
-
-3 6 4 | 3
-
+\3 6 4 | 3
 5 7 8 | 12
 
 the 3 columns on the left represent the coefficient matrix, and the column to the right of the bar is the resulting vector.

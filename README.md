@@ -7,7 +7,9 @@ For those who haven't taken a linear algebra course, or who would like a refresh
 a system of linear equations. For example, lets say that we have three equations for a plane:
 
 1x + 2y + 3z = 0
+
 3x + 6y + 4z = 3
+
 5x + 7y + 8z = 12
 
 This is solveable the way that it is, but it is much simpler to find a solution set of the above equations. an augmented 

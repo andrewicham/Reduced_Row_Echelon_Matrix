@@ -1,5 +1,5 @@
 # Reduced_Row_Echelon_Matrix
-A web program, using mostly vanilla javascript, to convert a 3x3 matrix into reduced row echelon form.
+A boring (but useful) web app, using mostly vanilla javascript, to convert a 3x3 matrix into reduced row echelon form.
 
 Matrix Description:
 -------------------

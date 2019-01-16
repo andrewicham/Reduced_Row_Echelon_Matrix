@@ -2,14 +2,48 @@
 <html lang="en">
 <head>
     <script src="js/jquery.js"></script>
-    <script src="js/math.js"></script>
     <script src="js/rref.js"></script>
 </head>    
 <body>
-    <div id="row1"></div>
-    <div id="row2"></div>
-    <div id="row3"></div>
+    <table>
+        <tr>
+            <td>
+                <input type="text" id="row1Pos1" size="3" maxlength="4">
+            </td>
+            <td>
+                <input type="text" id="row1Pos2" size="3" maxlength="4">
+            </td>
+            <td>
+                <input type="text" id="row1Pos3" size="3" maxlength="4">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="row2Pos1" size="3" maxlength="4">
+            </td>
+            <td>
+                <input type="text" id="row2Pos2" size="3" maxlength="4">
+            </td>
+            <td>
+                <input type="text" id="row2Pos3" size="3" maxlength="4">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="row3Pos1" size="3" maxlength="4">
+            </td>
+            <td>
+                <input type="text" id="row3Pos2" size="3" maxlength="4">
+            </td>
+            <td>
+                <input type="text" id="row3Pos3" size="3" maxlength="4">
+            </td>
+        </tr>
+    </table>
+    <button type="button" id="calcRref">Calculate</button>
     <br>
-    <div id="test"></div>
+    <pre>
+        <div id="output"></div>
+    </pre>
 </body>
 </html>

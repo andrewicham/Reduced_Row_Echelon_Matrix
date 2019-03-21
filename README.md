@@ -1,6 +1,8 @@
 # Reduced_Row_Echelon_Matrix
 A boring (but useful) web app, using mostly vanilla javascript, to convert a 3x3 matrix into reduced row echelon form.
 
+Follow this link to the deployed site: https://cs.iupui.edu/~andicham/rref/
+
 Matrix Description:
 -------------------
 For those who haven't taken a linear algebra course, or who would like a refresher, a matrix is a simplified way to represent 
